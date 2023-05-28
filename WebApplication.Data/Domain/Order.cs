@@ -1,9 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using WebApplication.Base.Model;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using WebApplication.Base;
+using System.ComponentModel.DataAnnotations.Schema;
 using WebApplication.Base.Model;
+using WebApplication.Data.Domain;
 
 namespace WebApplication.Data.Domain;
 
