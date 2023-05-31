@@ -1,0 +1,17 @@
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.csproj.AssemblyReference.cache
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.AssemblyInfoInputs.cache
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.AssemblyInfo.cs
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\bin\Debug\net6.0\WebApplication.Data.deps.json
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\bin\Debug\net6.0\WebApplication.Data.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\bin\Debug\net6.0\WebApplication.Data.pdb
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\bin\Debug\net6.0\WebApplication.Base.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\bin\Debug\net6.0\WebApplication.Base.pdb
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.csproj.CopyComplete
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\refint\WebApplication.Data.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.pdb
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\ref\WebApplication.Data.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\bin\Debug\net6.0\WebApplication.Data.runtimeconfig.json
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Data\obj\Debug\net6.0\WebApplication.Data.genruntimeconfig.cache

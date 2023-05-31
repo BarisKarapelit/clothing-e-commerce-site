@@ -1,0 +1,14 @@
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\bin\Debug\net6.0\WebApplication.Base.deps.json
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\bin\Debug\net6.0\WebApplication.Base.runtimeconfig.json
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\bin\Debug\net6.0\WebApplication.Base.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\bin\Debug\net6.0\WebApplication.Base.pdb
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.csproj.AssemblyReference.cache
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.AssemblyInfoInputs.cache
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.AssemblyInfo.cs
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.csproj.CoreCompileInputs.cache
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\refint\WebApplication.Base.dll
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.pdb
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\WebApplication.Base.genruntimeconfig.cache
+C:\Users\ibrah\Desktop\Proje\WebApplication\WebApplication.Base\obj\Debug\net6.0\ref\WebApplication.Base.dll

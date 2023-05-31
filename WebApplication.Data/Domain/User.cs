@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System.ComponentModel.DataAnnotations.Schema;
 using WebApplication.Base.Model;
 
-namespace WebApplication.Data;
+namespace WebApplication.Data.Domain;
 
 [Table("User", Schema = "dbo")]
 public class User : BaseModel

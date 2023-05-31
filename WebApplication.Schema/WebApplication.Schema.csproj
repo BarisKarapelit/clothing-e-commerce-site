@@ -7,7 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication.Base\WebApplication.Base.csproj" />
+    <ProjectReference Include="..\WebApplication.Data\WebApplication.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Basket\" />
+    <Folder Include="Price\" />
+    <Folder Include="Order\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.0" />
   </ItemGroup>
 
 </Project>

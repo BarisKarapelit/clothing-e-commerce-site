@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Diagnostics;
 using Serilog;
 using WebApplication.Base;
 using WebApplication.Data.Uow;
-using WebApplication.Service.CustomService;
 using WebApplication.Service.RestExtension;
 using System.Net;
+using WebApplication.Base.Jwt;
+using WebApplication.Base.Response;
+using WebApplication.Data.UnitOfWork;
 
 namespace WebApplication.Service;
 
@@ -79,34 +81,12 @@ public class Startup
             {
                 return next();
             }
-            var singletenService = context.RequestServices.GetRequiredService<SingletonService>();
-            var scopedService = context.RequestServices.GetRequiredService<ScopedService>();
-            var transientService = context.RequestServices.GetRequiredService<TransientService>();
-
-            singletenService.Counter++;
-            scopedService.Counter++;
-            transientService.Counter++;
+           
 
             return next();
         });
 
-        app.Run(async context =>
-        {
-            var singletenService = context.RequestServices.GetRequiredService<SingletonService>();
-            var scopedService = context.RequestServices.GetRequiredService<ScopedService>();
-            var transientService = context.RequestServices.GetRequiredService<TransientService>();
-
-            if (!string.IsNullOrEmpty(context.Request.Path) && !context.Request.Path.Value.Contains("favicon"))
-            {
-                singletenService.Counter++;
-                scopedService.Counter++;
-                transientService.Counter++;
-            }
-
-            await context.Response.WriteAsync($"SingletonService: {singletenService.Counter}\n");
-            await context.Response.WriteAsync($"TransientService: {transientService.Counter}\n");
-            await context.Response.WriteAsync($"ScopedService: {scopedService.Counter}\n");
-        });
+       
 
 
         app.UseHttpsRedirection();

@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using WebApplication.Base.Model;
 using WebApplication.Data.Domain;
 
-namespace WebApplication.Data;
+namespace WebApplication.Data.Domain;
 
 
 [Table("Product", Schema = "dbo")]

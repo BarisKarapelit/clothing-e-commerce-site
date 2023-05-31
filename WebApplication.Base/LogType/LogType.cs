@@ -1,0 +1,11 @@
+﻿
+namespace WebApplication.Base.LogType;
+
+public static class LogType // kk kaldırabilirim
+{
+    public static string LogedIn = "LogedIn";
+    public static string WrongPassword = "WrongPass";
+    public static string InValidUserName = "InValidUserName";
+    public static string InValidUserStatus = "InValidUserStatus";
+    public static string PasswordRetryCountExceded = "PasswordRetryCount";
+}

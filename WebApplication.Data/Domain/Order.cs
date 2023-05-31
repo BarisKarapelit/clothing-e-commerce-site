@@ -22,3 +22,17 @@ public class Order : BaseModel
 
 
 }
+public class OrderConfiguration : IEntityTypeConfiguration<Order>
+{
+    public void Configure(EntityTypeBuilder<Order> builder)
+    {
+        builder.Property(x => x.Id).IsRequired(true).UseIdentityColumn();
+        builder.Property(x => x.CreatedAt).IsRequired(false);
+        builder.Property(x => x.CreatedBy).IsRequired(false).HasMaxLength(30);
+        builder.Property(x => x.UpdatedAt).IsRequired(false);
+        builder.Property(x => x.UpdatedBy).IsRequired(false).HasMaxLength(30);
+        builder.Property(x => x.IsValid).IsRequired(true).HasDefaultValue(true);
+
+    }
+}
+

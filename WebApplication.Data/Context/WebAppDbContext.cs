@@ -17,7 +17,7 @@ public class WebAppDbContext : DbContext
     public DbSet<Product> Product { get; set; }
     public DbSet<Basket> Basket { get; set; }
     public DbSet<User> User { get; set; }
-    public DbSet<Order> Order { get; set; }
+    public DbSet<Order> SideOrder { get; set; }
     public DbSet<Price> Price { get; set; }
     public DbSet<Category> Category { get; set; }
 
@@ -27,8 +27,8 @@ public class WebAppDbContext : DbContext
         modelBuilder.ApplyConfiguration(new CategoryConfiguration());
         modelBuilder.ApplyConfiguration(new ProductConfiguration());
         modelBuilder.ApplyConfiguration(new BasketConfiguration());
-        modelBuilder.ApplyConfiguration(new OrderConfiguration());
         modelBuilder.ApplyConfiguration(new PriceConfiguration());
+        modelBuilder.ApplyConfiguration(new OrderConfiguration());
 
         base.OnModelCreating(modelBuilder);
     }
