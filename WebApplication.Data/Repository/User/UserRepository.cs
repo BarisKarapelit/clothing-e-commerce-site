@@ -11,8 +11,8 @@ public class UserRepository : GenericRepository<User>, IUserRepository
 
     }
 
-    public User GetByUsername(string name)
+    public IEnumerable<User> GetByUsername(string name)
     {
-        return dbContext.Set<User>().Where(x => x.UserName == name).FirstOrDefault();
+        return dbContext.Set<User>().Where(x => x.UserName == name).ToList();
     }
 }

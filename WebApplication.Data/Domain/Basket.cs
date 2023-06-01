@@ -12,6 +12,8 @@ public class Basket : BaseModel
     public bool IsValid { get; set; }
     public virtual User User { get; set; }
     public virtual List<Order> Orders { get; set; }
+    public bool IsDelivered { get; set; } 
+    public bool IsPaid { get; set; }
 
 }
 public class BasketConfiguration : IEntityTypeConfiguration<Basket>

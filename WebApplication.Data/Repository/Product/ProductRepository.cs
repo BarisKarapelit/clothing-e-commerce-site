@@ -10,4 +10,8 @@ public class ProductRepository : GenericRepository<Product>, IProductRepository
     {
 
     }
+    public IEnumerable<Product> GetByUsername(string name)
+    {
+        return dbContext.Set<Product>().Where(x => x.Name == name).ToList();
+    }
 }

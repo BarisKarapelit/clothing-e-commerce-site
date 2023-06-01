@@ -33,6 +33,11 @@ public class OrderConfiguration : IEntityTypeConfiguration<Order>
         builder.Property(x => x.UpdatedBy).IsRequired(false).HasMaxLength(30);
         builder.Property(x => x.IsValid).IsRequired(true).HasDefaultValue(true);
 
+        builder.HasOne(p => p.Basket) // Her bir Order'ın bir Basket'si olmasını sağlar.
+           .WithMany(c => c.Orders) // Her bir Basket'nin birden çok Orders'a sahip olmasını sağlar.
+           .HasForeignKey(p => p.BasketId) // Order sınıfındaki BasketId alanını foreign key olarak belirler.
+           .OnDelete(DeleteBehavior.Cascade); // Eğer bir Basket silinirse, ilgili Order'lar da silinir.
+
     }
 }
 

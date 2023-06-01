@@ -5,5 +5,5 @@ namespace WebApplication.Data.Repository;
 
 public interface IUserRepository : IGenericRepository<User>
 {
-    User GetByUsername(string name);
+    IEnumerable<User> GetByUsername(string name);
 }
